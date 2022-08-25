@@ -48,6 +48,7 @@ if( !isset($_SESSION["username"])){
                 </li>
             </ul>
         </nav>
+
         <div id="content">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -55,10 +56,42 @@ if( !isset($_SESSION["username"])){
                     <a href="logout.php" class="btn btn-dark">Keluar</a>
             </nav>
             <div class="container">
-                 <h1 class="text-center">Sistem Informasi</h1><br>
+                <div class="form-group mb-4">
+                    <div class="form-row">
+                        <div class="col-lg-3">
+                         <h3>Foto</h3>
+                        </div>
+                        <div class="col-lg-9">
+                            <h3 class="text-center">Selamat Datang di SIM Dosen Politeknik Negeri Banyuwangi</h3>
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col-md-4">NIP</div>
+                                    <div class="col-md-8">: 199203302019031012</div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-4">Nama</div>
+                                    <div class="col-md-8">: Lutfi Hakim S.Pd.,M.T.</div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-4">Alamat</div>
+                                    <div class="col-md-8">: Jln. Kepodang no.11 RT 01 RW 02, Kalirejo, Kabat, Banyuwangi</div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-4">No. Telp/HP</div>
+                                    <div class="col-md-8">: 085330161514</div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-4">Prodi</div>
+                                    <div class="col-md-8">: D4 - Teknologi Rekayasa Perangkat Lunak</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <h1 class="text-center mt-4">Sistem Informasi</h1><br>
                  <h6 class="text-center">Anda berhasil login sebagai Dosen</h6>
             </div>
-    </div>
-</body>
+        </div>
+    </body>
 
 </html>
